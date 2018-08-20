@@ -1,1 +1,30 @@
-Ha! You can't steal my code!
+import java.util.Scanner;
+    public class TEST{
+        public static void main (String[]args){
+            Scanner scammer = new Scanner (System.in);
+            System.out.println("Do you like the cream that is ice?");
+            String cheese = scammer.nextLine();
+            if (cheese.equalsIgnoreCase("Yes")){
+                System.out.println("YAY FOR ICECREAM");
+            } else {
+                System.out.println("Oh...");
+            }
+            System.out.println("Do you like the corn that is popped?");
+            String chs = scammer.nextLine();
+            if (chs.equalsIgnoreCase("Yes")){
+                System.out.println("YAY FOR POPCORN");
+            } else {
+                System.out.println("Oh...");
+            }
+            int[][]challenge1=new int[1][1];
+            challenge1[0][0] = 1;
+            challenge1[0][1] = 2;
+            challenge1[1][0] = 3;
+            challenge1[1][1] = 4;
+            String[][]chllng=new String[1][1];
+            chllng[0][0] = "5";
+            chllng[1][1] = "6";
+            chllng[0][1] = "7";
+            chllng[1][0] = "8";
+    }
+}
